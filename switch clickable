@@ -1,0 +1,7 @@
+function changeDisabled() {
+      if ($('.class').is(':checked')) {
+        $('.class-text').prop('disabled', false);
+      } else {
+        $('.clss-text').prop('disabled', true);
+      }
+    }
